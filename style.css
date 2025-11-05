@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a59571;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: #ba4c57;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-link {
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #a59571;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 23px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #e46d29;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.btn-link:hover {
+    background-color: #a59571;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    color: #ba4c57;
+}
+
+.imagem {
+    width: 246px;
+    height: 219px;
+    display: inline-block;
+    margin: 95px 0 0 73px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #515151;
+    margin-bottom: 10px;
+}
+
+h2 {
+    width: 348px;
+    height: auto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #515151;
+    margin-bottom: 5px;
+}
+
+p {
+    width: 367px;
+    height: auto;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #848484;
+    text-align: justify;
+}
+
+#btn-link {
+    width: 139px;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #ADFF00;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 25%);
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+
+#btn-link:hover {
+    opacity: .5;
+}
+
+.contéudo {
+    display: inline-block;
+    margin-left: 39px;
+}
+
+@media (max-width: 830px) {
+    .contéudo {
+        display: block;
+        margin-left: 39px;
+        color: #ba4c57;
+    }
+
+    .imagem {
+        width: 346px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .btn-link {
+        margin-left: 70%;
+    }
+
+    p {
+        width: 300px;
+        color: #0004ff;
+        margin: 20px 0 20px;
+    }
+    h1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
